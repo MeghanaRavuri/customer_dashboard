@@ -25,7 +25,7 @@ Python was used as the first step to prepare the data for SQL analysis. Key step
 - **Dropped Unnecessary Columns:** Removed irrelevant columns such as promo_code_used. 
 - **Data Upload to SQL:** Cleaned data was uploaded to MySQL for further SQL analysis.
 
-The full Python code for data cleaning and preparation is available in the repository as 
+The full Python code for data cleaning and preparation is available in the repository as `Customer_datacleaning.ipynb`
 
 ---
 
@@ -78,7 +78,7 @@ The Power BI dashboard provides insights into:
 - Revenue and sales by age group
 - Filters by gender, category, shipping type, and subscription status
 
-> 📷 Dashboard preview is available as `dashboard.png` in this repository.
+- Dashboard preview is available as `customer_dashboard.png` in this repository.
 
 ---
 
