@@ -68,6 +68,8 @@ The following business questions were answered using SQL:
 ### Sales by Category
 - Analyzed how sales are distributed across different categories
 
+> SQL queries used for data validation are included in the file `customer_queries.sql` in the repository.
+
 ---
 
 ## Dashboard Highlights
