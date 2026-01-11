@@ -17,13 +17,13 @@ The goal is to extract meaningful insights related to revenue, customer segments
 ## Python Analysis & Data Cleaning
 
 Python was used as the first step to prepare the data for SQL analysis. Key steps included:
-**Data Loading & Exploration:** Checked data structure, column types, and basic statistics.
-**Handling Missing Values:** Filled missing Review Rating values using category-wise median.
-**Column Cleaning & Standardization:** Lowercased column names, replaced spaces with underscores, and renamed columns for consistency.
-**Age Group Categorization:** Binned customer ages into meaningful groups (Young Adult, Adult, Middle Age, Senior).
-**Purchase Frequency Mapping:** Converted purchase frequency labels (e.g., Daily, Weekly) into numeric days for analysis.
-**Dropped Unnecessary Columns:** Removed irrelevant columns such as promo_code_used. 
-**Data Upload to SQL:** Cleaned data was uploaded to MySQL for further SQL analysis.
+- **Data Loading & Exploration:** Checked data structure, column types, and basic statistics.
+- **Handling Missing Values:** Filled missing Review Rating values using category-wise median.
+- **Column Cleaning & Standardization:** Lowercased column names, replaced spaces with underscores, and renamed columns for consistency.
+- **Age Group Categorization:** Binned customer ages into meaningful groups (Young Adult, Adult, Middle Age, Senior).
+- **Purchase Frequency Mapping:** Converted purchase frequency labels (e.g., Daily, Weekly) into numeric days for analysis.
+- **Dropped Unnecessary Columns:** Removed irrelevant columns such as promo_code_used. 
+- **Data Upload to SQL:** Cleaned data was uploaded to MySQL for further SQL analysis.
 
 The full Python code for data cleaning and preparation is available in the repository as 
 
